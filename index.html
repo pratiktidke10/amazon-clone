@@ -3,9 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Amazon Clone</title>
+    <title>Amazon</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Welcome to the Amazon Clone</h1>
+    <header>
+      <div class="navbar">
+        <a href="#" class="nav-logo border">
+          <img src="images/amazon_logo.png" alt="Amazon Logo" />
+        </a>
+
+        <div class="nav-address border">
+          <p class="add-first">Deliver to</p>
+          <div class="add-icon">
+            <i class="fa-solid fa-location-dot"></i>
+            <p class="add-country">India</p>
+          </div>
+        </div>
+
+        <div class="nav-search">
+          <select class="search-select">
+            <option value="all">All</option>
+            <option value="books">Books</option>
+            <option value="electronics">Electronics</option>
+            <option value="fashion">Fashion</option>
+            <option value="toys">Toys</option>
+          </select>
+          <input placeholder="Search Amazon" class="search-input" />
+          <div class="search-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+      </div>
+    </header>
   </body>
 </html>
