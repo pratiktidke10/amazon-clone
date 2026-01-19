@@ -239,7 +239,7 @@ ul a {
 
 .foot-panel3 {
     height: 60px;
-    border: 0.5px solid white;
+    border-top: 0.5px solid white;
     color: white;
     background-color: #232f3e;
     display: flex;
@@ -268,7 +268,7 @@ ul a {
 }
 
 .pages {
-    padding-top: 20px;
+    padding-top: 15px;
 }
 
 .copyright {
