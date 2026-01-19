@@ -11,3 +11,30 @@ searchInput.addEventListener("keyup", () => {
     box.style.display = title.includes(value) ? "block" : "none";
   });
 });
+
+document.querySelectorAll('.box').forEach(box => {
+    box.addEventListener('click', () => {
+        alert(`You clicked on ${box.querySelector('h2').innerText}`);
+    });
+});
+
+document.querySelector('.foot-panel1').addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });        
+});
+
+// const heroSection = document.querySelector('.hero-section');
+// const heroImages = [
+//     'images/box1_image.jpg',
+//     'images/box2_image.jpg',
+//     'images/box3_image.jpg',
+//     'images/box4_image.jpg'
+// ];
+
+// let currentImageIndex = 0;
+
+// setInterval(() => {
+//     currentImageIndex = (currentImageIndex + 1) % heroImages.length;
+//     heroSection.style.backgroundImage = `url(${heroImages[currentImageIndex]})`;
+// } , 3000);
+
+
