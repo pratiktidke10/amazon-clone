@@ -37,4 +37,13 @@ document.querySelector('.foot-panel1').addEventListener('click', () => {
 //     heroSection.style.backgroundImage = `url(${heroImages[currentImageIndex]})`;
 // } , 3000);
 
+// Cart functionality
+let cartCount = 0;
+const cartCountElement = document.querySelector('.cart-count');
+document.querySelectorAll('.box').forEach(box => {
+    box.addEventListener('click', () => {
+        cartCount++;
+        cartCountElement.innerText = cartCount;
+    }); 
+});
 
