@@ -47,3 +47,9 @@ document.querySelectorAll('.box').forEach(box => {
     }); 
 });
 
+// Smooth scroll for footer panel 2
+document.querySelector('.foot-panel2').addEventListener('click', () => {
+    window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });        
+});
+
+
